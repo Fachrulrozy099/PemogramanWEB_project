@@ -1,0 +1,104 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/*font*/
+.kaisei-tokumin-regular {
+    font-family: "Kaisei Tokumin", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.kaisei-tokumin-medium {
+    font-family: "Kaisei Tokumin", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.kaisei-tokumin-bold {
+    font-family: "Kaisei Tokumin", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.kaisei-tokumin-extrabold {
+    font-family: "Kaisei Tokumin", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+  
+#background-container{
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(68, 68, 68, 0.863);
+    background-blend-mode: overlay;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form-container{
+    background-color: white;
+    min-height: 95vh;
+    min-width: 35%;
+    border-radius: 18px;
+    padding-top: 1.6em;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header{
+    font-size: 36px;
+    color: #00465C;
+}
+
+#signup-form{
+    /*border: 1px solid black;*/
+    min-width: 80%;
+    font-size: 16px;
+}
+
+#signup-form .input-field{
+    display: flex;
+    flex-direction: column;
+    margin: 0.6em 0em;
+    font-size: 14px;
+}
+
+#signup-form .input-field > input{
+    height: 26px;
+    padding: 4px;
+}
+
+#signup-form > #name-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#name-form > .input-field{
+    width: 45%;
+}
+
+#submit-button{
+    min-width: 35%;
+    padding: 0.6em;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    font-size: 16px;
+    background-color: #00465C;
+}
+
+@media screen and (max-width: 1150px){
+    #form-container {
+      min-width: 60%;;
+    }
+}
