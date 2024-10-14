@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div id="main-container">
+        <div id="image-section">
+        </div>
+        <div id="form-section">
+            <h1 id="heading" class="kaisei-tokumin-extrabold">Masuk ke Situs Web Kami</h1>
+            <form action="/login" method="post" id="form-fields">
+                <div class="input-fields kaisei-tokumin-regular">
+                    <label for="username">E-mail:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-fields kaisei-tokumin-regular">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                
+                <input type="submit" value="Login" id="submit-button">
+            </form>
+            <p id="create-account">Belum punya aku? silahkan daftar <a href="signup.html">disini</a></p>
+        </div>
+
+    </div>
+</body>
+</html>
