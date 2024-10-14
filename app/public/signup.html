@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/signup.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div id="background-container">
+        <div id="form-container">
+            <h2 id="header" class="kaisei-tokumin-bold">Create an Account</h2>
+            <form id="signup-form">
+                <div id="name-form">
+                    <div class="input-field kaisei-tokumin-regular">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="input-field kaisei-tokumin-regular">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+                <div class="input-field kaisei-tokumin-regular">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="input-field kaisei-tokumin-regular">
+                    <label for="country">Country:</label>
+                    <input type="text" id="country" name="country" required>
+                </div>
+
+                <div class="input-field kaisei-tokumin-regular">
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" required>
+                </div>
+                
+                <div class="input-field kaisei-tokumin-regular">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>     
+                </div>
+
+                <div class="input-field kaisei-tokumin-regular">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required> 
+                </div>
+                
+            </form>
+            <button id="submit-button" class="kaisei-tokumin-regular">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
